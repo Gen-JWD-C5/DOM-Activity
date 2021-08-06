@@ -126,9 +126,9 @@ let section = document.querySelector("#hobbies")
 const addToList = () => {
 for (let i = 0; i <3; i++){
 let answer = prompt("What are your hobbies?");
-let hobbies = document.createElement("li");
-hobbies.innerHTML = answer;
-section.querySelector("ul").appendChild(hobbies);
+let li = document.createElement("li");
+li.innerHTML = answer;
+section.querySelector("ul").appendChild(li);
 }
 }
 //Call the event

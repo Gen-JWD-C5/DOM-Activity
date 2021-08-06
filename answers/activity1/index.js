@@ -105,7 +105,7 @@ function generateList() {
   let hobbiesList = document.querySelector("#hobbies > ul");
   //console.log(hobbiesList);
   for (i = 1; i <= 3; i++) {
-    let hobbies = prompt("What are your hobbies");
+    let hobbies = prompt("What are your hobbies");// the hobbies variable is capturing the prompt value
     let li = document.createElement("li");
     //console.log(hobbies);
     li.innerHTML = hobbies;
